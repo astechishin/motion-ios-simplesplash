@@ -1,15 +1,15 @@
 # -*- encoding: utf-8 -*-
-VERSION = "0.2"
+VERSION = "0.1.0"
 
 Gem::Specification.new do |spec|
-  spec.name          = "motion-ios-splash"
+  spec.name          = "motion-ios-simplesplash"
   spec.version       = VERSION
-  spec.authors       = ["apstechishin"]
+  spec.authors       = ["Andy Stechishin"]
   spec.email         = ["andy@canasoftware.ca"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Generate a simple splash page in a storyboard file}
+  spec.summary       = %q{Generate a simple splash page in a storyboard file}
   spec.homepage      = ""
-  spec.license       = ""
+  spec.license       = "MIT"
 
   files = []
   files << 'README.md'
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "rake"
+  spec.add_runtime_dependency "builder", '>=3.2.2'
 end

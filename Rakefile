@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 $:.unshift("/Library/RubyMotion/lib")
 require 'motion/project/template/ios'
-require './lib/motion-ios-splash'
+require './lib/motion-ios-simplesplash'
 
 begin
   require 'bundler'
@@ -12,5 +12,5 @@ end
 
 Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
-  app.name = 'motion-ios-splash'
+  app.name = 'motion-ios-simplesplash'
 end

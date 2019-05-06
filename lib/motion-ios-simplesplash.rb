@@ -6,4 +6,4 @@ end
 
 lib_dir_path = File.dirname(File.expand_path(__FILE__))
 
-require File.join(lib_dir_path, "tasks/motion-ios-splash.rb")
+require File.join(lib_dir_path, "tasks/motion-ios-simplesplash.rb")
