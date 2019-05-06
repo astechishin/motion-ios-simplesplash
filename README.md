@@ -12,7 +12,7 @@ I needed a quick, brain-dead simple way of adding a splash screen to my iOS proj
 
 Add this line to your application's Gemfile:
 
-    gem 'motion-ios-splash'
+    gem 'motion-ios-simplesplash'
 
 And then execute:
 
@@ -20,7 +20,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install motion-ios-splash
+    $ gem install motion-ios-simplesplash
 
 ## Usage
 
@@ -34,7 +34,7 @@ This will generate the file `SimpleSplash.storyboard` in the resources directory
      app.info_plist['UILaunchStoryboardName'] = 'SimpleSplash'
 ``` 
 
-You can edit the file once it has been produced if it is not exactly to your liking. You may or may not need to include the `ib` gem and then open using Xcode. Those of you wanting to get you *XML on* can simply open the storyboard file (it is just and XML text file) and hack. YMMV
+You can edit the file once it has been produced if it is not exactly to your liking. You may or may not need to include the `ib` gem and then open using Xcode. Those of you wanting to get your *XML on* can simply open the storyboard file (it is just and XML text file) and hack. YMMV
 
 ### Caution
 Rerunning the `rake generate:simple_splash` will replace the current `SimpleSplash.storyboard` file with a freshly generated version. Good if you are recovering from a mistaken edit, not so good if you had changes that you wanted to keep. Make a backup if you have changes you wish to save before re-executing the command.
