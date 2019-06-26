@@ -1,13 +1,13 @@
 # -*- encoding: utf-8 -*-
-VERSION = "0.1.1"
+VERSION = "0.2.1"
 
 Gem::Specification.new do |spec|
   spec.name          = "motion-ios-simplesplash"
   spec.version       = VERSION
   spec.authors       = ["Andy Stechishin"]
   spec.email         = ["andy@canasoftware.ca"]
-  spec.description   = %q{Generate a simple splash page in a storyboard file}
-  spec.summary       = %q{Generate a simple splash page in a storyboard file}
+  spec.description   = %q{Generate a simple splash page in a storyboard file for RubyMotion projects}
+  spec.summary       = %q{Generate a simple splash page in a storyboard file for RubyMotion projects}
   spec.homepage      = ""
   spec.license       = "MIT"
 
